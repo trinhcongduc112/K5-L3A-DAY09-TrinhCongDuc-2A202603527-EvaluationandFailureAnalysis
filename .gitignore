@@ -3,3 +3,13 @@ __pycache__/
 src/reports/
 src/traces/
 *.sqlite
+
+# Secrets / env (from Lab 8)
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+
+# Instructor-only hidden pack. Never push it.
+src/eval/instructor/
